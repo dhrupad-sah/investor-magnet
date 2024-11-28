@@ -131,7 +131,7 @@ export function InvestorForm() {
     try {
       const formattedData = formatFormDataForAPI(formData)
       
-      const response = await fetch("https://flow-api.mira.network/v1/flows/flows/prasad178/Investor Magnet?version=0.0.3", {
+      const response = await fetch("https://flow-api.mira.network/v1/flows/flows/prasad178/Investor Magnet?version=0.0.5", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
