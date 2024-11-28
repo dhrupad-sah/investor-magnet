@@ -27,7 +27,7 @@ export interface FormData {
     // Only validate required fields
     const requiredFields = fields.filter(field => field !== 'additional_details');
     
-    requiredFields.forEach(field => {
+    requiredFields.forEach(() => {
       // You can still add validation here if needed
       // For now, we'll accept any value since we'll replace empty ones with "Not specified"
     });

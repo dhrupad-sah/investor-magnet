@@ -109,8 +109,6 @@ const formatFormDataForAPI = (data: StartupFormData) => {
   return formattedData
 }
 
-type ValidationErrors = Record<string, string>
-
 export function InvestorForm() {
   const [step, setStep] = useState(0)
   const [formData, setFormData] = useState(initialFormData)
